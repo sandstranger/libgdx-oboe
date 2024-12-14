@@ -5,8 +5,8 @@ object DependenciesVersions {
 }
 
 object Dependencies {
-    const val GDX_BACKEND_ANDROID = "com.badlogicgames.gdx:gdx-backend-android:${DependenciesVersions.GDX}"
-    const val KOTLIN_STDLIB = "org.jetbrains.kotlin:kotlin-stdlib:${DependenciesVersions.KOTLIN}"
+    const val GDX_BACKEND_ANDROID = "com.badlogicgames.gdx:gdx-backend-android:1.11.0"
+    const val KOTLIN_STDLIB = "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
     const val KTX_SCENE2D = "io.github.libktx:ktx-scene2d:${DependenciesVersions.KTX}"
     const val KTX_ACTORS = "io.github.libktx:ktx-actors:${DependenciesVersions.KTX}"
     const val GDX_NATIVES_ARMEABI_V7A = "com.badlogicgames.gdx:gdx-platform:${DependenciesVersions.GDX}:natives-armeabi-v7a"

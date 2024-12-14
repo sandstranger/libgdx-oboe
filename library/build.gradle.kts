@@ -5,14 +5,15 @@ plugins {
 }
 
 dependencies {
-    implementation(Dependencies.GDX_BACKEND_ANDROID)
-    implementation(Dependencies.KOTLIN_STDLIB)
+    implementation("com.badlogicgames.gdx:gdx-backend-android:1.11.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.7.20")
 }
 
 android {
-    buildToolsVersion = AndroidConfig.BUILD_TOOLS
-    compileSdkVersion = "android-${AndroidConfig.SDK}"
-    ndkVersion = AndroidConfig.NDK
+    namespace = "oboe"
+    buildToolsVersion = "34.0.0"
+    compileSdkVersion = "android-34"
+    ndkVersion = "25.1.8937393"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -27,8 +28,8 @@ android {
     }
 
     defaultConfig {
-        minSdk = AndroidConfig.MIN_SDK
-        targetSdk = AndroidConfig.SDK
+        minSdk = 24
+        targetSdk = 34
 
         ndk {
             abiFilters.addAll(listOf("x86", "x86_64", "armeabi-v7a", "arm64-v8a"))
