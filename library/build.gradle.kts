@@ -5,8 +5,8 @@ plugins {
 }
 
 dependencies {
-    implementation("com.badlogicgames.gdx:gdx-backend-android:1.11.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.7.20")
+    implementation("com.badlogicgames.gdx:gdx-backend-android:1.13.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.0")
 }
 
 android {
