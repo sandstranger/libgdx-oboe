@@ -5,7 +5,8 @@ plugins {
 }
 
 dependencies {
-    implementation ("com.badlogicgames.gdx:gdx-backend-android:1.13.0")
+    implementation(files("libs/gdx-backend-android-release.aar"))
+//    implementation ("com.badlogicgames.gdx:gdx-backend-android:1.13.0")
     implementation  ("com.badlogicgames.gdx:gdx:1.13.0")
     implementation  ("com.badlogicgames.gdx:gdx-box2d:1.13.0")
     implementation  ("com.badlogicgames.gdx:gdx-freetype:1.13.0")
