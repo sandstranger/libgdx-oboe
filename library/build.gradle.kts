@@ -16,7 +16,7 @@ android {
     namespace = "oboe"
     buildToolsVersion = "34.0.0"
     compileSdkVersion = "android-34"
-    ndkVersion = "25.1.8937393"
+    ndkVersion = "25.2.9519653"
 
     kotlinOptions {
         jvmTarget = "11"
