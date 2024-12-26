@@ -16,7 +16,7 @@ android {
     namespace = "oboe"
     buildToolsVersion = "34.0.0"
     compileSdkVersion = "android-34"
-    ndkVersion = "25.2.9519653"
+    ndkVersion = "26.3.11579264"
 
     kotlinOptions {
         jvmTarget = "11"
@@ -35,7 +35,7 @@ android {
     }
 
     defaultConfig {
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
 
         ndk {
